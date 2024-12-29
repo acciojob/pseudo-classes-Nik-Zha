@@ -1,33 +1,27 @@
-/*  your css code here. If applicable */
-:root{
-	background-color:skyblue;
+*{
+	background-color : rgb(135, 206, 235);
 }
-
- div :first-child{
-	background-color:black;
+.first-child{
+	background-color : black;
 	color:white;
 }
 
- div :last-child{
-	color: red;
+.last-child{
+	color:red;
 }
-
- ul li:nth-child(1){
-	background-color:white;
+ul{
+	width:50%;
+	padding:10px;
 }
-
- ul li:nth-child(5){
-	background-color:white;
-}
-
- ul li:nth-child(2){
-    background-color: slategrey;
-}
-
-ul li:nth-child(3){
-	background-color:pink;
-}
-
- ul li:nth-child(4){
-    background-color: slategrey;
-}
+	.a,.e{
+		font-size:22px;
+	}
+	.b,.d{
+		background-color:gray;
+	}
+	.c{
+		background-color:pink;
+	}
+	.a,.e{
+		background-color:white;
+	}
